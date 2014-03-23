@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/Kristen/.vim'
+let g:netrw_dirhist_2='/home/Kristen/.vim/bundle/vim-airline/plugin'
+let g:netrw_dirhist_3='/cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com'
+let g:netrw_dirhist_4='/cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic'
+let g:netrw_dirhist_5='/home/Kristen/.vim/bundle/vim-airline/autoload/airline'
