@@ -1,157 +1,4 @@
 ls
-vim buildcode.hs 
-ghci buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim converted.txt 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim converted3.txt 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-vim buildcode.hs 
-runghc buildcode.hs 
-ls
-mkdir .vim
-cd .vim
-cd ..
-curl -Sso ~/.vim/autoload/pathogen.vim     https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
-cd .vim/autoload/
-vim pathogen.vim
-cd ..
-ls
-cd ..
-ls
-vim .vim
-vim .vimrc 
-cd .vim.
-ls
-mkdir bundle
-git clone git://github.com/altercation/vim-colors-solarized.git
-cd .vim/bundle/
-git clone git://github.com/altercation/vim-colors-solarized.git
-ls
-cd ../..
-vim .vimrc 
-:q
-ls
-vim .vimrc 
-ls
-vim .vimrc 
-vim .minttyrc
-ls
-vim .vimrc 
-cdudk
-cd Core/Classes/
-vim Commandlet.uc 
-pwd
-vim .vimrc 
-vim Commandlet.uc 
-cd ~
-vim .vimrc
-git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
-vim .vimrc
-exit
-vim .vimrc
-cd .vim
-ls
-cd bundle/
-ls
-git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
-ls
-cd vim-airline
-cd /home/
-cd Kristen/
-ls
-cd .vim
-ls
-cd bundle/
-ls
-ls -a
-:q
-ls .vim/bundle
-cd .vim/autoload/
-ls
-cd ../..
-vim .vimrc
-cd .vim/bundle
-ls
-git clone https://github.com/bling/vim-airline
-ls
-cd vim-airline/
-ls
-exit
-vim .vimrc
-vim .vim/bundle/vim-airline/plugin/
-vim .vim/bundle/vim-airline/plugin/airline.vim 
-:q
-exit
-vim .vimrc
-:q
-cd .vim/bundle/vim-airline/plugin/
-ls
-dos2unix.exe airline.vim 
-vim airline.vim 
-dos2unix.exe airline.vim 
-exit
-dos2unix.exe
-dos2unix.exe 
-cd .vim/bundle/vim-airline/plugin/
-dos2unix.exe airline.vim 
-vim airline.vim 
-vim .vimrc 
-cd .vim/bundle/
-ls
-rm -f vim-airline/
-rm vim-airline/
-rm -fR vim-airline
-ls
-cd ~
-vim .vimrc 
-ls
-vim .bashrc 
-cd .bash_aliases 
-vim .bash_aliases 
-cdgh
-exit
-cdgh
-ls
-cd zemanovic-com/
-ls
-cd zemanovic/
-ls
-ghc --make site.hs
-ls
-./site build
-./site watch
-ls
-cd _site
-ls
 cygstart index.html 
 cd ../..
 cd zemanovic/
@@ -498,3 +345,156 @@ cd autoload/
 ls
 dos2unix.exe airline.vim 
 exit
+vim .vimrc 
+cd ./.vim/bundle/vim-airline/
+cd autoload/
+ls
+cd airline
+ls
+vim init.vim
+dos2unix.exe init.vim 
+vim init.vim 
+cdgh
+cd zemanovic-com/zemanovic/
+ls
+vi site.hs
+vim ~/.vimrc
+cdgh
+cd zemanovic-com/zemanovic/
+vim site.hs
+cygstart index.html 
+cygstart _site/index.html 
+vim site.hs
+vim ~/.vimrc
+vim site.hs
+vim ~/.vimrc
+vim site.hs
+ls
+cd templates/
+ls
+vim default.html 
+ghc site.hs
+cd ..
+ghc site.hs
+./site.exe rebuild
+cygstart _site/index.html 
+vim site.hs
+ghc site.hs
+./site.exe rebuild
+ls _site/
+vim site.hs
+ghc --make site.hs
+./site rebuild
+ls _site
+vim site.hs
+ghc --make site.hs
+./site rebuild
+ls js
+ls _site/js
+ls _site
+ls _site/ks
+ls _site/js
+./site rebuild
+vim site.hs
+ghc --make site.hs
+./site rebuild
+ls _site
+vim site.hs
+ghc --make site.hs
+./site rebuild
+vim site.hs
+./site rebuild
+ghc --make site.hs
+./site rebuild
+ls js/vendor
+cygstart _site/index.html 
+vim site.hs
+vim templates/default.html 
+./site rebuild
+vim templates/default.html 
+./site rebuild
+vim templates/default.html 
+./site rebuild
+vim templates/default.html 
+./site rebuild
+vim templates/default.html 
+vim css/main.css 
+./site rebuild
+vim css/main.css 
+./site rebuild
+vim css/main.css 
+vim templates/default.html 
+cd css
+ls
+curl http://yui.yahooapis.com/pure/0.4.2/base-min.css
+ls
+curl http://yui.yahooapis.com/pure/0.4.2/base-min.css > base-min.css
+ls
+vim base-min.css 
+curl http://yui.yahooapis.com/pure/0.4.2/buttons-min.css > buttons-min.css
+curl http://yui.yahooapis.com/pure/0.4.2/forms-min.css > forms-min.css
+curl http://yui.yahooapis.com/pure/0.4.2/grids-min.css > grids-min.css
+curl http://yui.yahooapis.com/pure/0.4.2/menus-min.css > menus-min.css
+curl http://yui.yahooapis.com/pure/0.4.2/tables-min.css > tables-min.css
+curl http://yui.yahooapis.com/pure/0.4.2/pure-min.css > pure-min.css
+ls
+cd ../
+vim templates/default.html 
+./site rebuild
+vim templates/default.html 
+./site rebuild
+vim templates/default.html 
+./site rebuild
+vim templates/default.html 
+./site rebuild
+vim templates/default.html 
+./site rebuild
+vim templates/default.html 
+./site rebuild
+vim templates/default.html 
+vim css/main.css
+./site rebuild
+vim index.html 
+./site rebuild
+vim templates/default.html 
+vim index.html 
+./site rebuild
+vim index.html 
+./site rebuild
+vim index.html 
+./site rebuild
+cdgh
+cd zemanovic-com/zemanovic/
+vim templates/default.html 
+vim site.hs
+ghc --make site.hs
+vim site.hs
+ghc --make site.hs
+./site rebuild
+vim templates/default.html 
+./site rebuild
+vim site.hs
+ls _site
+./site rebuild
+cdgh
+ls
+cd zemanovic-com/zemanovic/
+ls
+./site rebuild
+ls
+ls _site
+vim site.hs
+ghc --make site.hs
+ls
+ghc --make site.hs
+cdgh
+cd zemanovic-com/zemanovic/
+ls
+ghc --make site.hs
+vim site.hs
+ghc --make site.hs
+./site rebuild
+ls _site
+vim site.hs
+ghc --make site.hs
+./site rebuild

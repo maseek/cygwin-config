@@ -4,6 +4,13 @@ filetype plugin indent on
 set number
 set autoindent
 
+" space for tab
+set expandtab
+" 4 spaces for tab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+
 " UDK :make
 autocmd FileType uc set makeprg=cygstart\ \"/cygdrive/c/UDK/UDK-2014-02/Binaries/Win64/UDK.exe\"\ make
 autocmd FileType uc set efm=%f(%l)\ :\ %m
