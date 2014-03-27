@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/*
+~MSle0~/sim
 
 # Last Substitute Search Pattern:
 ~MSle0&^M$
@@ -18,27 +18,35 @@ $
 
 # Command Line History (newest to oldest):
 :q
+:filetype
+:ls
 :wq
-:e ~/.vimrc
 :w
-:e index.html
-:e templates/default.html
-:e ~/.vim/
-:e ~/.vim/ftplugin/haskell.vim
-:e ~/.vim/syntax/haskell.vim
-:e 
-:L
-:e site.hs
-:e about.rst
-:e :q
 :q!
-:Helptags
-:SyntasticInfo
-:hide
-::wq
+:!ghc-mod browse
+:!ghc-mod flag
+:!ghc-mod lang
+:!ghc-mod list
+:VimProcBang ghc-mod
 :!ghc-mod
+:GHCReload
+:make
+:make?
+:e templates/default.html
+:e index.html
+:e site.hs
+:e css/bootstrap.css
+:e
 
 # Search String History (newest to oldest):
+?/sim
+?/sola
+?/\/doc
+?//doc/html
+?/comp
+?/concat
+?/conca
+?/itemB
 ?/*
 ?/--.
 ?/dpi
@@ -51,7 +59,6 @@ $
 ?/7
 ?/6
 ?/5
-?/3
 
 # Expression History (newest to oldest):
 
@@ -60,227 +67,394 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	<script src="js/bootstrap.min.js"></script>
 "1	LINE	0
-	
+	"set background=dark
 "2	LINE	0
-		compile copyFileCompiler
-"3	LINE	0
-	    	route idRoute
+	
+	
+	
+"3	BLOCK	23
+	.git/                   
+	zemanovic/              
+	../                     
 "4	LINE	0
-	    match "js/vendor/*" $ do
-"5	LINE	0
-	-->
+	
+	
+	
+"5	BLOCK	23
+	./                      
+	README.md*              
+	.gitignore*             
 "6	LINE	0
 	
-"7	LINE	0
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.
-					</p>
 	
-					<h4>More Information</h4>
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.
-					</p>
-				</div>
-			</div>
 	
-		</div>
 	
-		<div class="footer l-box is-center">
-			View the source of this layout to learn more. Made with love by the YUI Team.
-		</div>
-	
-	</div>
-	<!--
+"7	BLOCK	19
+	_site/              
+	_cache/             
+	./                  
+	.swp                
 "8	LINE	0
-	<div class="splash-container">
-		<div class="splash">
-			<h1 class="splash-head">Big Bold Text</h1>
-			<p class="splash-subhead">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-			</p>
-			<p>
-			<a href="http://purecss.io" class="pure-button pure-button-primary">Get Started</a>
-			</p>
-		</div>
-	</div>
 	
-	<div class="content-wrapper">
-		<div class="content">
-			<h2 class="content-head is-center">Excepteur sint occaecat cupidatat.</h2>
 	
-			<div class="pure-g">
-				<div class="l-box pure-u-1 pure-u-med-1-2 pure-u-lrg-1-4">
 	
-					<h3 class="content-subhead">
-						<i class="fa fa-rocket"></i>
-						Get Started Quickly
-					</h3>
-					<p>
-					Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-					</p>
-				</div>
-				<div class="l-box pure-u-1 pure-u-med-1-2 pure-u-lrg-1-4">
-					<h3 class="content-subhead">
-						<i class="fa fa-mobile"></i>
-						Responsive Layouts
-					</h3>
-					<p>
-					Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-					</p>
-				</div>
-				<div class="l-box pure-u-1 pure-u-med-1-2 pure-u-lrg-1-4">
-					<h3 class="content-subhead">
-						<i class="fa fa-th-large"></i>
-						Modular
-					</h3>
-					<p>
-					Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-					</p>
-				</div>
-				<div class="l-box pure-u-1 pure-u-med-1-2 pure-u-lrg-1-4">
-					<h3 class="content-subhead">
-						<i class="fa fa-check-square-o"></i>
-						Plays Nice
-					</h3>
-"9	LINE	0
 	
+"9	BLOCK	19
+	site.hs*            
+	site.o*             
+	site.exe*           
+	templates/          
 "g	CHAR	0
 	GL
 "q	CHAR	0
-	:q
-"w	CHAR	0
+	
+"w@	CHAR	0
 	:q€kbw
 ""-	CHAR	0
-		
+	simple
 
 # File marks:
-'0  7  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
-'1  23  1  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
-'2  22  9  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
-'3  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
-'4  49  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
-'5  51  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
-'6  21  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
-'7  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
-'8  17  29  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
-'9  13  38  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
+'0  8  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+'1  1  0  ~/.vimrc
+'2  40  26  ~/.vimrc
+'3  41  17  ~/.vimrc
+'4  39  32  ~/.vimrc
+'5  1  0  ~/.fonts.conf.d/10-powerline-symbols.conf.txt
+'6  1  0  ~/.fonts.conf.d
+'7  40  32  ~/.vimrc
+'8  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+'9  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic
 
 # Jumplist (newest first):
+-'  8  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  1  0  ~/.vimrc
+-'  40  26  ~/.vimrc
+-'  41  17  ~/.vimrc
+-'  2  0  ~/.vimrc
+-'  39  32  ~/.vimrc
+-'  1  0  ~/.fonts.conf.d/10-powerline-symbols.conf.txt
+-'  1  0  ~/.fonts.conf.d
+-'  3  0  ~/.vimrc
+-'  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic
+-'  32  0  ~/.vimrc
+-'  76  26  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  9  4  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  10  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  248  0  ~/.vim/autoload/pathogen.vim
+-'  1  0  ~/.vim/autoload/pathogen.vim
+-'  11  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  14  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  1  0  ~/.vim/bundle/vim-hdevtools/ftplugin/haskell/hdevtools.vim
+-'  7  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  1  0  ~/.vim/bundle/vim-hdevtools/autoload/hdevtools.vim
+-'  1  0  ~/.vim/bundle/vim-hdevtools
+-'  33  10  ~/.vimrc
+-'  36  70  ~/.vimrc
+-'  20  20  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  105  2  ~/.vim/ftplugin/haskell_doc.vim
+-'  56  17  ~/.vim/ftplugin/haskell_doc.vim
+-'  104  35  ~/.vim/ftplugin/haskell_doc.vim
+-'  103  35  ~/.vim/ftplugin/haskell_doc.vim
+-'  46  83  ~/.vim/ftplugin/haskell_doc.vim
+-'  1  0  ~/.vim/ftplugin/haskell_doc.vim
+-'  106  27  ~/.vim/ftplugin/haskell_doc.vim
+-'  3  22  ~/.vim/ftplugin/haskell_doc.vim
+-'  1  0  ~/.vim/haskellmode.config
+-'  176  0  ~/.vim/haskellmode.config
+-'  17  8  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  13  20  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  19  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  21  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  15  4  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  16  8  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  18  12  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  23  8  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  24  8  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  30  4  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  31  8  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  32  8  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  33  12  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  34  12  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  36  4  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  37  8  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  38  8  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  39  12  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  40  12  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  79  4  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  59  4  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  4  7  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  11  49  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
+-'  50  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
+-'  44  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
+-'  27  7  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
+-'  23  4  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
+-'  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
 -'  7  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
 -'  17  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
 -'  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
 -'  1  0  ~/.vim/ftplugin/haskell.vim
 -'  1  0  ~/.vim/syntax/haskell.vim
 -'  160  0  ~/.vim/syntax/haskell.vim
--'  23  1  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  22  9  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  49  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  51  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  21  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
+-'  28  1  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  27  9  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  54  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+-'  26  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
 -'  13  38  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
--'  53  73  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
--'  37  8  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
+-'  48  73  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
+-'  36  8  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
 -'  26  25  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/css/main.css
 -'  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/css/main.css
 -'  157  12  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/css/main.css
--'  158  14  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/css/main.css
--'  32  8  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  39  28  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  12  29  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  40  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  34  36  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  25  2  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  18  1  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  14  31  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  19  20  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  22  9  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  36  48  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  54  2  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
--'  4  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
--'  42  200  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
--'  26  47  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  41  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  35  1  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  28  6  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  27  2  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  23  13  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  24  5  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  8  41  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/css/base-min.css
--'  386  30  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/css/main.css
--'  46  12  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  2  1  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  38  13  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  5  6  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  17  27  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  44  15  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  20  8  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  6  4  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
--'  31  0  ~/.vimrc
+-'  11  49  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
+-'  50  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
+-'  44  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
+-'  27  7  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
+-'  23  4  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
+-'  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
+-'  7  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
+-'  17  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
+-'  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
+-'  1  0  ~/.vim/ftplugin/haskell.vim
+-'  1  0  ~/.vim/syntax/haskell.vim
+-'  160  0  ~/.vim/syntax/haskell.vim
+-'  13  38  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
+-'  48  73  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
+-'  36  8  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
+-'  105  2  ~/.vim/ftplugin/haskell_doc.vim
 -'  1  0  ~/.vimrc
--'  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/about.rst
--'  25  4  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  34  15  ~/.vimrc
--'  35  2  ~/.vimrc
--'  15  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  27  0  ~/.vim/bundle/vim-airline/autoload/airline/init.vim
--'  1  0  ~/.vim/bundle/vim-airline/autoload/airline/init.vim
--'  42  8  ~/.vim/bundle/vim-airline/autoload/airline/init.vim
--'  40  9  ~/.vim/bundle/vim-airline/autoload/airline/init.vim
--'  111  0  ~/.vim/bundle/vim-airline/autoload/airline/init.vim
--'  4  0  ~/.vim/bundle/vim-airline/.travis.yml
--'  1  0  ~/.vim/bundle/vim-airline/.travis.yml
--'  170  0  ~/.vim/bundle/vim-airline/autoload/airline.vim
--'  1  0  ~/.vim/bundle/vim-airline/autoload/airline.vim
--'  1  0  ~/.vim/bundle/vim-airline/autoload/airline
--'  4  9  ~/.vimrc
--'  1  0  ~/.vim
--'  12  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  13  3  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  9  2  ~/.vim/bundle/syntastic/autoload/syntastic/util.vim
--'  1  0  ~/.vim/bundle/syntastic/autoload/syntastic/util.vim
--'  1  0  ~/.vim/bundle/syntastic/plugin/syntastic/signs.vim
--'  1  0  ~/.vim/bundle/syntastic/plugin/syntastic.vim
--'  26  13  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  9  4  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  5  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  7  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  1  0  ~/.vim/compiler/ghc.vim
--'  1  0  ~/.vim/autoload/haskellmode.vim
--'  2  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
--'  1  0  ~/.vim/ftplugin/haskell_hpaste.vim
--'  1  0  ~/.vim/ftplugin/haskell_doc.vim
--'  2715  0  ~/.vim/ftplugin/haskell_doc.vim
--'  5  30  ~/.vim/ftplugin/haskell.vim
--'  6  1  ~/.vim/ftplugin/haskell.vim
--'  30  23  ~/.vimrc
--'  3  0  ~/.vimrc
--'  1  0  /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.
--'  1  0  ~/.vim/haskell.vim
--'  1218  0  ~/.vim/haskell.vim
 
 # History of marks within files (newest to oldest):
 
-> /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
+> /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
+	"	8	0
+	^	8	0
+	.	76	34
+	+	10	8
+	+	11	7
+	+	16	8
+	+	17	7
+	+	18	11
+	+	19	11
+	+	23	8
+	+	24	7
+	+	31	8
+	+	32	8
+	+	33	11
+	+	34	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	49	0
+	+	50	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	55	0
+	+	59	0
+	+	60	0
+	+	61	0
+	+	62	0
+	+	63	0
+	+	64	0
+	+	65	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	72	0
+	+	75	0
+	+	76	0
+	+	77	0
+	+	6	0
+	+	10	0
+	+	11	0
+	+	13	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	21	0
+	+	23	0
+	+	24	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	36	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	48	0
+	+	49	0
+	+	50	0
+	+	63	0
+	+	64	0
+	+	65	0
+	+	19	57
+	+	19	64
+	+	10	23
+	+	19	69
+	+	19	69
+	+	21	0
+	+	19	63
+	+	4	0
+	+	19	40
+	+	19	66
+	+	21	0
+	+	19	70
+	+	19	70
+	+	19	0
+	+	19	55
+	+	21	0
+	+	21	0
+	+	19	0
+	+	19	89
+	+	19	66
+	+	20	15
+	+	14	7
+	+	14	15
+	+	14	7
+	+	14	7
+	+	14	0
+	+	76	34
+
+> ~/.vimrc
 	"	1	0
-	^	37	9
-	.	37	8
-	+	1	15
-	+	2	59
+	^	40	27
+	.	40	26
+	+	16	40
+	+	2	25
+	+	4	0
+	+	6	0
+	+	6	20
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	23	18
+	+	19	13
+	+	2	0
+	+	26	0
+	+	42	0
+	+	29	16
+	+	6	0
+	+	30	0
+	+	31	0
+	+	42	0
+	+	32	28
+	+	31	23
+	+	5	10
+	+	37	30
+	+	42	0
+	+	38	15
+	+	32	0
+	+	12	16
+	+	13	12
+	+	36	0
+	+	35	70
+	+	33	10
+	+	32	0
+	+	39	32
+	+	40	33
+	+	40	0
+	+	39	32
+	+	3	0
+	+	2	0
+	+	1	17
+	+	39	32
+	+	40	28
+	+	41	17
+	+	40	26
+
+> ~/.fonts.conf.d/10-powerline-symbols.conf.txt
+	"	1	0
+
+> ~/.fonts.conf.d
+	"	1	0
+
+> ~/.vim/autoload/pathogen.vim
+	"	248	0
+	^	1	4
+	.	1	3
+	+	1	38
+	+	332	105
+	+	1	3
+
+> ~/.vim/bundle/vim-hdevtools/ftplugin/haskell/hdevtools.vim
+	"	1	0
+
+> ~/.vim/bundle/vim-hdevtools/autoload/hdevtools.vim
+	"	1	0
+
+> ~/.vim/ftplugin/haskell_doc.vim
+	"	105	2
+	^	2715	0
+	.	46	0
+	+	2715	0
+	+	46	0
+
+> ~/.vim/haskellmode.config
+	"	1	0
+
+> /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
+	"	1	0
+	^	16	28
+	.	16	27
+	+	4	20
+	+	4	0
+	+	4	214
+	+	4	0
+	+	4	0
+	+	37	0
+	+	37	0
+	+	37	3
+	+	37	0
+	+	37	3
+	+	49	2
+	+	37	0
+	+	4	0
+	+	49	0
+	+	37	3
+	+	36	49
+	+	48	73
+	+	7	0
+	+	13	46
+	+	16	25
+	+	17	29
+	+	7	0
+	+	23	0
+	+	23	0
+	+	27	0
+	+	27	92
+	+	13	48
+	+	17	33
+	+	16	27
+
+> /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/templates/default.html
+	"	12	0
+	^	11	35
+	.	12	0
 	+	2	0
 	+	2	17
 	+	2	23
 	+	2	23
 	+	2	23
 	+	2	0
-	+	19	0
+	+	18	0
 	+	12	0
 	+	4	0
 	+	5	0
@@ -290,148 +464,93 @@ $
 	+	7	0
 	+	8	0
 	+	8	0
-	+	19	0
-	+	20	15
+	+	18	0
+	+	19	15
 	+	6	11
-	+	20	0
+	+	19	0
 	+	8	33
 	+	12	33
-	+	19	17
-	+	20	0
-	+	22	25
-	+	22	0
-	+	22	0
-	+	49	19
-	+	37	0
+	+	18	17
+	+	19	0
+	+	21	25
+	+	21	0
+	+	21	0
+	+	48	19
+	+	36	0
 	+	2	0
-	+	44	0
-	+	38	56
-	+	46	8
+	+	43	0
+	+	37	56
+	+	45	8
 	+	2	0
-	+	46	12
+	+	45	12
 	+	8	41
 	+	2	15
 	+	4	0
 	+	6	34
 	+	8	0
 	+	12	0
-	+	19	0
+	+	18	0
+	+	21	0
+	+	22	83
 	+	22	0
-	+	23	83
-	+	23	0
-	+	24	28
-	+	25	5
-	+	26	57
-	+	27	41
+	+	23	28
+	+	24	5
+	+	25	57
+	+	26	41
+	+	27	37
 	+	28	37
-	+	29	37
-	+	29	0
+	+	28	0
+	+	27	2
 	+	28	2
-	+	29	2
-	+	30	4
-	+	32	0
-	+	35	0
-	+	34	12
-	+	41	0
-	+	38	0
-	+	41	0
-	+	25	0
-	+	24	54
-	+	32	5
-	+	33	0
-	+	34	3
-	+	37	9
+	+	29	4
+	+	31	0
+	+	34	0
+	+	33	12
 	+	40	0
-	+	22	9
+	+	37	0
+	+	40	0
+	+	24	0
+	+	23	54
+	+	31	5
+	+	32	0
+	+	33	3
+	+	36	9
+	+	39	0
+	+	21	9
 	+	6	0
 	+	9	0
 	+	10	0
 	+	11	39
-	+	19	0
-	+	17	104
+	+	18	0
+	+	16	104
+	+	13	0
 	+	14	0
 	+	15	0
-	+	16	0
-	+	19	0
-	+	17	92
 	+	18	0
+	+	16	92
 	+	17	0
 	+	16	0
-	+	20	0
-	+	34	0
-	+	37	6
-	+	40	13
+	+	15	0
+	+	19	0
+	+	33	0
+	+	36	6
+	+	39	13
 	+	11	29
 	+	12	29
-	+	34	0
+	+	33	0
+	+	37	0
 	+	38	0
-	+	39	0
-	+	38	0
-	+	39	28
-	+	22	3
-	+	32	8
-	+	34	3
-	+	37	8
+	+	37	0
+	+	38	28
+	+	21	3
+	+	31	8
+	+	33	3
+	+	36	8
+	+	11	34
+	+	12	0
 
-> /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/index.html
-	"	7	0
-	^	7	1
-	.	7	0
-	+	4	20
-	+	4	0
-	+	4	214
-	+	4	0
-	+	4	0
-	+	42	0
-	+	42	0
-	+	42	3
-	+	42	0
-	+	42	3
-	+	54	2
-	+	42	0
-	+	4	0
-	+	54	0
-	+	42	3
-	+	41	49
-	+	53	73
-	+	7	0
-	+	13	46
-	+	16	25
-	+	17	29
-	+	7	0
-
-> ~/.vimrc
-	"	12	12
-	^	12	13
-	.	12	12
-	+	15	40
-	+	1	25
-	+	3	0
-	+	5	0
-	+	5	20
-	+	5	0
-	+	5	0
-	+	5	0
-	+	5	0
-	+	22	18
-	+	18	13
-	+	1	0
-	+	25	0
-	+	35	0
-	+	28	16
-	+	5	0
-	+	29	0
-	+	30	0
-	+	35	0
-	+	31	28
-	+	30	23
-	+	4	10
-	+	33	30
-	+	35	0
-	+	34	15
-	+	31	0
-	+	11	16
-	+	12	12
+> /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/css/bootstrap.css
+	"	47	0
 
 > ~/.vim/syntax/haskell.vim
 	"	1	0
@@ -444,58 +563,6 @@ $
 	+	2	0
 	+	6	0
 	+	5	30
-
-> /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/site.hs
-	"	23	1
-	^	23	2
-	.	23	1
-	+	9	22
-	+	12	20
-	+	12	4
-	+	5	0
-	+	12	6
-	+	6	0
-	+	12	0
-	+	6	0
-	+	12	0
-	+	1	1
-	+	9	0
-	+	12	0
-	+	12	9
-	+	12	4
-	+	25	0
-	+	25	14
-	+	25	0
-	+	33	0
-	+	32	13
-	+	17	21
-	+	24	0
-	+	21	22
-	+	21	0
-	+	22	0
-	+	23	24
-	+	17	0
-	+	21	1
-	+	22	1
-	+	24	0
-	+	23	1
-	+	17	16
-	+	21	0
-	+	22	0
-	+	23	0
-	+	21	2
-	+	22	2
-	+	23	2
-	+	22	0
-	+	21	2
-	+	22	4
-	+	23	8
-	+	22	0
-	+	21	0
-	+	23	0
-	+	21	1
-	+	22	1
-	+	23	1
 
 > /cygdrive/c/Users/Kristen/Documents/GitHub/zemanovic-com/zemanovic/css/main.css
 	"	26	25
@@ -551,12 +618,6 @@ $
 > ~/.vim/ftplugin/haskell_hpaste.vim
 	"	1	0
 
-> ~/.vim/ftplugin/haskell_doc.vim
-	"	1	0
-	^	2715	0
-	.	2715	0
-	+	2715	0
-
 > /usr/share/vim/vim74/doc/insert.txt
 	"	1271	56
 
@@ -602,14 +663,6 @@ $
 	+	1	0
 	+	20	0
 	+	1	12
-
-> ~/.vim/autoload/pathogen.vim
-	"	1	0
-	^	1	4
-	.	1	3
-	+	1	38
-	+	332	105
-	+	1	3
 
 > /cygdrive/c/Users/Kristen/Desktop/stuff/dodecahedron/buildcode.hs
 	"	7	24

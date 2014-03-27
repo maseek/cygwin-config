@@ -1,3 +1,4 @@
+set encoding=utf-8
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
@@ -28,7 +29,13 @@ nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
 
 " GHC plugin autocommand
-au BufEnter *.hs compiler ghc
+"au BufEnter *.hs compiler ghc
+" hdevtools
+au FileType haskell nnoremap <buffer> <F1> :HdevtoolsType<CR>
+au FileType haskell nnoremap <buffer> <silent> <F2> :HdevtoolsClear<CR>
 
 " vim-airline show all the time
 set laststatus=2
+let g:airline_powerline_fonts = 0
+let g:airline_theme = 'dark'
+set ttimeoutlen=50
